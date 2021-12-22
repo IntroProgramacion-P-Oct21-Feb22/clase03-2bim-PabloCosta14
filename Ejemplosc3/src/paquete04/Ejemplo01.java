@@ -17,7 +17,7 @@ public class Ejemplo01 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         String valorIngresado;
-        String [][] arreglo1 = new String[2][2];
+        String[][] arreglo1 = new String[2][2];
         // i = fila
         // j = columna
         System.out.println("Presentación de valores iniciales del arreglo");
@@ -27,7 +27,7 @@ public class Ejemplo01 {
             }
             System.out.println(); // salto de línea
         }
-        
+
         System.out.println("Ingreso de datos al arreglo");
         for (int i = 0; i < arreglo1.length; i++) {
             for (int j = 0; j < arreglo1[i].length; j++) {
@@ -38,7 +38,7 @@ public class Ejemplo01 {
             }
             System.out.println(); // salto de línea
         }
-        
+
         System.out.println("Presentación de valores del arreglo");
         for (int i = 0; i < arreglo1.length; i++) {
             for (int j = 0; j < arreglo1[i].length; j++) {

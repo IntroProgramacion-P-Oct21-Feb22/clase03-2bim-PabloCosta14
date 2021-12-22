@@ -11,7 +11,7 @@ import paquete01.*;
  *
  * @author reroes
  */
-public class Ejemplo05 {
+public class Ejemplo06 {
 
     /**
      * @param args the command line arguments
@@ -28,7 +28,13 @@ public class Ejemplo05 {
         int valor;
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
-                suma = suma + arreglo1[fila][col];
+                System.out.printf("el arreglo de la posicion %s %s\n", fila, col);
+
+                valor = arreglo1[fila][col];
+
+                if (fila == col) {
+                    suma = suma + valor;
+                }
 
             }
         }
